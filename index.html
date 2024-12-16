@@ -16,11 +16,6 @@
       --gray: #7a8893;
     }
 
-    .crt {
-      background: linear-gradient(to top, #000000, #000000, #333333, #333333);
-      background-size: cover;
-      background-size: 100% 1px;
-}
     
     @keyframes fadein {
       0% { opacity: 0; }
@@ -28,19 +23,6 @@
     }
     * {transition: .5s;}
 
-    @media screen{
-      .crt {
-        animation: scanlines infinite 55s linear ;
-      }
-    } 
-    @keyframes scanlines {
-      from {
-        background-position: 0 0;
-      }
-      to {
-        background-position: 0 -10px;
-      }
-    }
     
     body {
       background-image:url('https://64.media.tumblr.com/e099716f97cef424d66e10f2db6dcaea/tumblr_p3oy0dTEWw1wqlt9mo1_1280.pnj');
@@ -51,7 +33,7 @@
       margin-left: auto; 
       margin-right: auto;
       color:var(--gray);
-      animation: fadein 2s;
+      animation: fadein 3s;
     }
     
     ::selection {background:var(--gray); color:rgb(67, 70, 241);}
