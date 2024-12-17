@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>oreomilkshake</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <meta name="description" content="evil viscera">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="scrollbar.css">
+
+  <style>
+    :root {
+      --sin: #e0efff;
+      --gray: #7a8893;
+    }
+
+
+    @keyframes fadein {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    * {transition: .5s;}
+
+
+    body {
+      background-image:url('https://64.media.tumblr.com/e099716f97cef424d66e10f2db6dcaea/tumblr_p3oy0dTEWw1wqlt9mo1_1280.pnj');
+      background-color:var(--sin);
+      width: 70%;
+      margin-top: 45px;
+      margin-bottom: 50px;
+      margin-left: auto; 
+      margin-right: auto;
+      color:var(--gray);
+      animation: fadein 3s;
+    }
+
+    ::selection {background:var(--gray); color:rgb(67, 70, 241);}
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family:'virale';
+      letter-spacing:3px;
+      margin:1vh;
+    }
+    @font-face { font-family: 'virale'; src: url(virale.ttf); }
+
+    a {color:dodgerblue;}
+    a:hover {color:dodgerblue; letter-spacing:1px; font-style:italic;}
+
+    img {max-width:100%; border-radius:25px; border:1px solid var(--gray);}
+
+    #hold {
+      display:grid;
+      gap:.5vh;
+      grid-template-columns:1fr 1fr 1fr 1fr;
+      grid-template-rows:.5fr 1fr .5fr .1fr;
+      grid-template-areas:
+        "top top top top"
+        "nav main main right"
+        "sts main main right"
+        "btom btom btom btom";
+      background: #dedede;
+      border:1px solid var(--gray);
+      border-radius:25px;
+      box-shadow: inset 0 0 50px var(--sin);
+      padding:5px;
+    }
+
+    #top, #nav, #sts, #main, #right, #btom {padding:5px;}
+    #nav, #sts, #main, #right {overflow:auto;}
+
+    #top {
+      grid-area:top;
+      background-image:url('https://64.media.tumblr.com/e099716f97cef424d66e10f2db6dcaea/tumblr_p3oy0dTEWw1wqlt9mo1_1280.pnj');
+      background-color:var(--sin);
+      background-position:0 -60%;
+      border-bottom:1px solid var(--gray);
+      border-radius:25px;
+      text-align:right;
+      color:white
+    }
+    #top > h1 {
+      filter: drop-shadow(.5px .5px 0 var(--gray)) drop-shadow(-.5px 1px 0 var(--gray)) drop-shadow(0 -.5px 0 var(--gray)) drop-shadow(1px 0 var(--gray));
+    }
+
+    #nav {
+      grid-area:nav;
+    }
+    #nav > a {
+      display:block;
+      border:1px solid var(--gray);
+      border-radius:25px;
+      padding:5px;
+      margin-bottom:5px;
+      overflow:auto;
+    }
+
+    #sts {
+      grid-area:sts;
+      border-top:1px solid var(--gray);
+    }
+
+    #main {
+      grid-area:main;
+      border-left:1px solid var(--gray);
+      border-right:1px solid var(--gray);
+    }
+
+    #right {
+      grid-area:right;
+    }
+
+    #btom {
+      grid-area:btom;
+      border-top:1px solid var(--gray);
+      border-radius:25px;
+      text-align:center;
+    }
+
+    @media screen and (max-width: 400px) {
+      #hold {
+        width:96vw;
+        height:98vh;
+      }
+    }
+  </style>
+</head>
+<body>  
+  <div class="nanikore">nanikore!?!?!?</div>
+  </div>
+  <div id="hold" class="box">
+    <header id="top">
+      <h1>...what the fuck is a kilometer!?</h1>
+    </header>
+
+    <nav id="nav">
+      <h3>navigation</h3>
+        <a href="https://e-z.bio/koishi">my bio page</a>
+        <a href="b">wait i haven't done it yet!</a>
+        <a href="#">soon!</a>
+        <a href="#">soon!</a>
+        <a href="#">soon!</a>
+    </nav>
+
+    <aside id="sts">
+      <a href="https://discord.gg/z582eNwtkA"><img src="https://r2.e-z.host/e0431dc3-12da-4bbd-8491-f82d2b71ae13/2qq9au7o.png"></a><br><a href="https://discord.gg/langsuoinuoc">- Làng Suối Nước Discord</a>
+      </aside>
+
+      <main id="main">
+        <h3>main</h3>
+          <p>hi :3 skiesphere/intelstellar here! <br>i'll try making my own website in my free time, but i will need to revise and learn everything about how to use html & css again cuz i forgor how to actual use it (┬┬﹏┬┬)<br>btw this website is just a static site from my github repo so imma try to find a web hosting provider in a not-too-distant future =w=</p>*this template wasn't created by me, so you can find creator <a href="https://ultrakill.nekoweb.org/templates">here!</a>*</p><br>ok guys i have a 16 days christmas break so i think i will do something with this page lol</p> 
+          <audio src="https://r2.e-z.host/e0431dc3-12da-4bbd-8491-f82d2b71ae13/g7zkwa7s.mp3" controls autoplay>
+            <p>If you are reading this, it is because your browser does not support the audio element.     </p>
+          </audio>    
+      </main>
+
+      <aside id="right">
+        <img src="https://r2.e-z.host/e0431dc3-12da-4bbd-8491-f82d2b71ae13/sckdja12.png">
+          <h3>web master</h3>
+          <p style="font-size:medium;">a vietnamese but studying in finland rn. btw go visit my biography page gyze <a href="https://osu.ppy.sh/users/18550322">and if you play osu!, tell me so we can mutual >:3</a></p>
+
+          <p><img src="https://64.media.tumblr.com/a27d9795ab29beca1f78e8cecf711ba5/eae635feeff6a844-35/s300x500/2ac6ef8879b05aadae3f0ad92bdc5f42e79712c4.gif"> </p>
+      </aside>
+    <footer id="btom">
+      <a href="https://youtu.be/oHwJjAShAa0?si=W9OusSI_Lr8FNZmo">dreambreak</a> // <a href="https://music.apple.com/tr/playlist/iliths-ultrahyperovercomplexhotpot/pl.u-gxblgE7IbK9r2yj">my playlist >///<</a>
+    </footer>
+  </div>
+</body>
+</html>
